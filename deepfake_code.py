@@ -4,6 +4,7 @@ import numpy as np
 import time
 from sklearn.model_selection import train_test_split
 from sklearn.utils import class_weight
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
