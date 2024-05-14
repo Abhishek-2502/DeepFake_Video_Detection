@@ -12,16 +12,20 @@ We trained our model using the Celeb-DeepFakeForensics dataset, a valuable resou
 
 Clone the repository and install the required dependencies to set up the project:
 
+```bash
 git clone https://github.com/Abhishek-2502/DeepFake_Video_Detection.git
-
+```
+```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 The project involves steps such as data preprocessing, model construction, training, and evaluation. Begin by preparing your data, then proceed to train the model with the dataset paths adjusted to your setup:
 
-python deepfake.py
-
+```bash
+python deepfake_code.py
+ ```
 ## Model Architecture
 
 Our CNN model comprises several layers designed to process and analyze video frames effectively. This setup includes convolutional layers, max pooling, and dense layers, structured to capture and learn from the complexities of video data.
@@ -33,3 +37,6 @@ The model was trained with a focus on achieving a balanced representation of cla
 ## Contributing
 
 We welcome contributions from the community. Feel free to fork the repository, make improvements, and submit a pull request with your changes.
+
+## Author
+- Abhishek Rajput
