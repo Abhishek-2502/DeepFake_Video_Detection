@@ -33,12 +33,13 @@ def load_data(paths, label):
     print(f"Loaded data from {paths}. Time taken: {end_time - start_time:.2f} seconds")
     return data
 # Paths to your datasets
-real_paths = ["C:\\Users\\laksh\\Downloads\\Celeb-DF\\Celeb-real", 
-              "C:\\Users\\laksh\\Downloads\\Celeb-DF\\YouTube-real",
-              "C:\\Users\\laksh\\Downloads\\Celeb-DF-v2\\Celeb-real",
-              "C:\\Users\\laksh\\Downloads\\Celeb-DF-v2\\YouTube-real"]
-synthetic_paths = ["C:\\Users\\laksh\\Downloads\\Celeb-DF-v2\\Celeb-synthesis",
-                   "C:\\Users\\laksh\\Downloads\\Celeb-DF\\Celeb-synthesis"]
+
+real_paths = ["D:\\Dataset_Celeb_df\\Celeb-DF\\Celeb-real",
+              "D:\\Dataset_Celeb_df\\Celeb-DF\\YouTube-real",
+              "D:\\Dataset_Celeb_df\\Celeb-DF-v2\\Celeb-real",
+              "D:\\Dataset_Celeb_df\\Celeb-DF-v2\\YouTube-real"]
+synthetic_paths = ["D:\\Dataset_Celeb_df\\Celeb-DF-v2\\Celeb-synthesis",
+                   "D:\\Dataset_Celeb_df\\Celeb-DF\\Celeb-synthesis"]
 
 # Load and label data
 real_data = load_data(real_paths, 0) # 0 for real
