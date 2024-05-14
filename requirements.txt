@@ -1,0 +1,5 @@
+Python 3.x
+OpenCV
+NumPy
+TensorFlow 2.x
+scikit-learn
